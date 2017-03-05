@@ -9,3 +9,15 @@ C:\Users\luiz.lira\Documents\Visual Studio 2012\Projects\WebApplication3\WebAppl
 C:\Users\luiz.lira\Documents\Visual Studio 2012\Projects\WebApplication3\WebApplication3\obj\Debug\WebApplication3.csprojResolveAssemblyReference.cache
 C:\Users\luiz.lira\Documents\Visual Studio 2012\Projects\WebApplication3\WebApplication3\obj\Debug\WebApplication3.dll
 C:\Users\luiz.lira\Documents\Visual Studio 2012\Projects\WebApplication3\WebApplication3\obj\Debug\WebApplication3.pdb
+C:\Users\Usuario\Documents\GitHub\PM\Testes\WebApplication3\WebApplication3\bin\WebApplication3.dll.config
+C:\Users\Usuario\Documents\GitHub\PM\Testes\WebApplication3\WebApplication3\bin\WebApplication3.dll
+C:\Users\Usuario\Documents\GitHub\PM\Testes\WebApplication3\WebApplication3\bin\WebApplication3.pdb
+C:\Users\Usuario\Documents\GitHub\PM\Testes\WebApplication3\WebApplication3\bin\zxing.dll
+C:\Users\Usuario\Documents\GitHub\PM\Testes\WebApplication3\WebApplication3\bin\zxing.presentation.dll
+C:\Users\Usuario\Documents\GitHub\PM\Testes\WebApplication3\WebApplication3\bin\zxing.pdb
+C:\Users\Usuario\Documents\GitHub\PM\Testes\WebApplication3\WebApplication3\bin\zxing.xml
+C:\Users\Usuario\Documents\GitHub\PM\Testes\WebApplication3\WebApplication3\bin\zxing.presentation.pdb
+C:\Users\Usuario\Documents\GitHub\PM\Testes\WebApplication3\WebApplication3\bin\zxing.presentation.xml
+C:\Users\Usuario\Documents\GitHub\PM\Testes\WebApplication3\WebApplication3\obj\Debug\WebApplication3.dll
+C:\Users\Usuario\Documents\GitHub\PM\Testes\WebApplication3\WebApplication3\obj\Debug\WebApplication3.pdb
+C:\Users\Usuario\Documents\GitHub\PM\Testes\WebApplication3\WebApplication3\obj\Debug\WebApplication3.csprojResolveAssemblyReference.cache
