@@ -32,26 +32,26 @@ BEGIN
 	SET NOCOUNT ON;
 
     -- Insert statements for procedure here
-	SELECT 1 as fg_login_ok,
+	SELECT cd_login,
 			'Sucesso' as ds_msg
 	from tblLogin
-	where strLogin = @login
-	and strSenha = @senha
+	where ds_login = @login
+	and ds_senha = @senha
 	
 	union
 	
-	SELECT 0 as fg_login_ok,
+	SELECT isnull(cd_login, 0) as cd_login,
 			'Senha Inválida' as ds_msg
 	from tblLogin
-	where strLogin = @login
-	and strSenha <> @senha
+	where ds_login = @login
+	and ds_senha <> @senha
 	
 	union
 	
-	SELECT 0 as fg_login_ok,
+	SELECT isnull(cd_login, 0) as cd_login,
 			'Login Inválido' as ds_msg
 	from tblLogin
-	where strLogin <> @login
+	where ds_login <> @login
 	
 END
 
