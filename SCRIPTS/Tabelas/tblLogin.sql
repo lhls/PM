@@ -8,7 +8,7 @@ GO
 USE [DbTcc]
 GO
 
-/****** Object:  Table [dbo].[tblLogin]    Script Date: 06/04/2017 22:20:35 ******/
+/****** Object:  Table [dbo].[tblLogin]    Script Date: 06/08/2017 23:06:55 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[tblLogin]') AND type in (N'U'))
 DROP TABLE [dbo].[tblLogin]
 GO
@@ -16,7 +16,7 @@ GO
 USE [DbTcc]
 GO
 
-/****** Object:  Table [dbo].[tblLogin]    Script Date: 06/04/2017 22:20:36 ******/
+/****** Object:  Table [dbo].[tblLogin]    Script Date: 06/08/2017 23:06:55 ******/
 SET ANSI_NULLS ON
 GO
 
@@ -31,6 +31,7 @@ CREATE TABLE [dbo].[tblLogin](
 	[ds_login] [varchar](50) NOT NULL,
 	[ds_Senha] [varchar](50) NOT NULL,
 	[cd_tipo_usuario] [int] NOT NULL,
+	[fg_excluido] [bit] NOT NULL,
  CONSTRAINT [PK_tblLogin] PRIMARY KEY CLUSTERED 
 (
 	[cd_login] ASC
@@ -48,5 +49,4 @@ GO
 
 ALTER TABLE [dbo].[tblLogin] CHECK CONSTRAINT [FK_tblLogin_tb_tipo_usuario]
 GO
-
 
